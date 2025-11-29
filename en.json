@@ -1,0 +1,1101 @@
+{
+  "menu": {
+    "title": "Celestia Project",
+    "local_time": "Local time",
+    "sidebar": {
+      "search_placeholder": "Search…",
+      "no_results": "No results for the current query.",
+      "no_features": "This module has no features yet.",
+      "feature_enabled": "Feature enabled",
+      "toggle_hotkey": "Toggle hotkey",
+      "select_feature": "Select a feature to inspect its options."
+    },
+    "overlays": {
+      "active_features": "Active features",
+      "fps": "FPS",
+      "teleport": {
+        "title": "Teleport queue",
+        "current_file": "File",
+        "total": "Total nodes",
+        "visited": "Visited",
+        "progress": "Progress",
+        "next_in": "Next teleport in",
+        "auto_active": "Auto-teleport active"
+      }
+    }
+  },
+  "modules": {
+    "player": "Player",
+    "world": "World",
+    "teleports": "Teleports",
+    "visuals": "Visuals",
+    "misc": "Misc",
+    "settings": "Settings"
+  },
+  "settings": {
+    "tabs": {
+      "general": "General",
+      "themes": "Themes",
+      "localization": "Localization"
+    },
+    "about": {
+      "name": "About",
+      "description": "Celestia Project overview",
+      "title": "About Celestia Project",
+      "description_full": "Celestia Project - new cheat for some certain anime game :)",
+      "version": "Current version",
+      "developers": "Developers",
+      "no_developers": "(No developers listed)",
+      "translators": "Translators",
+      "no_translators": "(No translators listed)",
+      "links": "Community links",
+      "github": "GitHub repository",
+      "discord": "Discord server"
+    },
+    "settings": {
+      "name": "Settings",
+      "description": "General UI settings"
+    },
+    "general": {
+      "menu_section": "Menu",
+      "open_key": "Menu open key",
+      "show_fps": "Show FPS counter",
+      "show_status": "Show function status",
+      "show_tp_screen": "Show TP loading screen",
+      "global_hotkeys_section": "Global hotkeys",
+      "toggle_hotkeys": "Toggle hotkeys",
+      "status_label": "Status",
+      "status_enabled": "Enabled",
+      "status_disabled": "Disabled",
+      "language_section": "Interface language",
+      "language": "Interface language",
+      "language_hint": "Select preferred language. Changes apply immediately.",
+      "language_combo": "Language",
+      "no_languages": "No languages available"
+    },
+    "themes": {
+      "name": "Themes",
+      "description": "UI color editor",
+      "description_full": "Customize the appearance of every UI element.",
+      "reset": "Reset to defaults",
+      "table": {
+        "name": "Element",
+        "preview": "Preview"
+      },
+      "colors": {
+        "text": "Text",
+        "text_disabled": "Disabled text",
+        "window_bg": "Window background",
+        "child_bg": "Child background",
+        "popup_bg": "Popup background",
+        "border": "Border",
+        "frame_bg": "Frame background",
+        "frame_bg_hovered": "Frame background (hovered)",
+        "frame_bg_active": "Frame background (active)",
+        "title_bg": "Title background",
+        "title_bg_active": "Title background (active)",
+        "menu_bar_bg": "Menu bar background",
+        "scrollbar_bg": "Scrollbar background",
+        "scrollbar_grab": "Scrollbar grab",
+        "scrollbar_grab_hovered": "Scrollbar grab (hovered)",
+        "scrollbar_grab_active": "Scrollbar grab (active)",
+        "check_mark": "Check mark",
+        "slider_grab": "Slider grab",
+        "slider_grab_active": "Slider grab (active)",
+        "button": "Button",
+        "button_hovered": "Button (hovered)",
+        "button_active": "Button (active)",
+        "header": "Header",
+        "header_hovered": "Header (hovered)",
+        "header_active": "Header (active)",
+        "separator": "Separator",
+        "separator_hovered": "Separator (hovered)",
+        "separator_active": "Separator (active)",
+        "resize_grip": "Resize grip",
+        "resize_grip_hovered": "Resize grip (hovered)",
+        "resize_grip_active": "Resize grip (active)",
+        "tab": "Tab",
+        "tab_hovered": "Tab (hovered)",
+        "tab_active": "Tab (active)",
+        "tab_selected": "Tab (selected)",
+        "table_header": "Table header",
+        "table_border_strong": "Table border (strong)",
+        "table_border_light": "Table border (light)",
+        "text_selected_bg": "Text selection",
+        "drag_drop_target": "Drag & drop target",
+        "nav_window_highlight": "Nav highlight",
+        "nav_window_dim_bg": "Nav dim background",
+        "modal_dim_bg": "Modal dim background"
+      }
+    },
+    "configs": {
+      "name": "Configs",
+      "description": "Profile manager",
+      "title": "Configs",
+      "reset": "Reset config",
+      "create": "Create config",
+      "save": "Save",
+      "load": "Load",
+      "delete": "Delete",
+      "auto_label": "Auto config (managed)",
+      "open_dir": "Open config folder"
+    },
+    "hotkeys": {
+      "name": "Hotkeys",
+      "description": "Manage feature bindings",
+      "search_hint": "Search...",
+      "toggle_label": "Toggle",
+      "no_modules": "No modules registered."
+    }
+  },
+  "config": {
+    "widgets": {
+      "toggle_hotkey": "Toggle hotkey",
+      "right_click_bindings": "Right-click bindings",
+      "enter_custom_value": "Enter custom value:"
+    }
+  },
+  "functions": {
+    "world": {
+      "autoloot": {
+        "name": "Auto Loot",
+        "description": "Automatically picks items up and opens chests",
+        "warning": "Note: High values and low delays are risky!",
+        "sections": {
+          "auto_pickup": "Auto-Pickup",
+          "auto_treasure": "Auto-Treasure",
+          "custom_range": "Custom Range",
+          "looting_speed": "Looting Speed",
+          "pickup_filter": "Pickup Filter"
+        },
+        "options": {
+          "enabled": "Enabled",
+          "auto_disable_when_full": "Auto disable when bag is full",
+          "chests": "Chests",
+          "leyline": "Leyline",
+          "search_points": "Search Points",
+          "quest_interacts": "Quest Interacts",
+          "others": "Others",
+          "use_custom_range": "Use custom range",
+          "range": "Range (m)",
+          "delay_time": "Delay Time (ms)",
+          "use_delay_fluctuation": "Use delay fluctuation",
+          "delay_fluctuation": "Delay Fluctuation (ms)",
+          "filter_enabled": "Enabled",
+          "filter_animals": "Animals",
+          "filter_drop_items": "Drop Items",
+          "filter_resources": "Resources",
+          "filter_oculus": "Oculus"
+        },
+        "tooltips": {
+          "auto_pickup": "Automatically picks up dropped items.\nExtremely risky with custom range and low delays."
+        },
+        "status": {
+          "title": "Auto Loot"
+        }
+      },
+      "autodestroy": {
+        "name": "Auto Destroy Objects",
+        "description": "Instantly destroys non-living objects within range",
+        "warning": "Note: This feature is not fully tested detection-wise.\nNot recommended for main accounts or used with high values.",
+        "options": {
+          "enabled": "Enabled",
+          "ores": "Ores",
+          "shields": "Shields",
+          "doodads": "Doodads",
+          "special_objects": "Special Objects",
+          "special_chests": "Special Chests",
+          "range": "Range (m)"
+        },
+        "tooltips": {
+          "ores": "Ores and variants, e.g. electro crystals, marrows, etc.",
+          "shields": "Abyss mage/churl/slime shields.",
+          "doodads": "Barrels, boxes, vases, etc.",
+          "special_objects": "Destroy Ancient Rime, Large and Small Rock Piles",
+          "special_chests": "Destroy Chests with Brambles, Frozen, or In Rocks",
+          "risk_unknown": "Risk Unknown!"
+        },
+        "status": {
+          "label": "Destroy"
+        }
+      },
+      "damageaura": {
+        "name": "Damage Aura",
+        "description": "Damage Aura continuously builds a hit list around you and applies instant hits.\nUseful as a lighter-weight alternative to Kill Aura.",
+        "warning": "Can be risky in endgame.",
+        "options": {
+          "enabled": "Enable damage aura",
+          "only_monsters": "Only monsters",
+          "also_gadgets": "Also affect gadgets",
+          "randomize_delays": "Randomize delays",
+          "range": "Range (m)",
+          "queue_delay": "Queue delay (ms)",
+          "repeat_delay": "Repeat delay (ms)",
+          "damage_gauge": "Damage gauge (U)"
+        },
+        "status": {
+          "label": "Damage Aura",
+          "monsters": "Monsters",
+          "all_hostiles": "All hostiles",
+          "gadgets_on": "On",
+          "gadgets_off": "Off"
+        }
+      },
+      "mobvacuum": {
+        "name": "Mob Vacuum",
+        "description": "Moves nearby enemies to your avatar",
+        "warning": "",
+        "options": {
+          "include_monsters": "Include Monsters",
+          "include_animals": "Include Animals",
+          "instant_vacuum": "Instant Vacuum",
+          "only_target": "Only Hostile/Aggro",
+          "speed": "Speed",
+          "radius": "Radius (m)",
+          "distance": "Distance (m)"
+        },
+        "tooltips": {
+          "instant_vacuum": "Vacuum entities instantly. If disabled, mobs will be vacuumed at the specified speed.",
+          "only_target": "If enabled, vacuum will only affect monsters targeting you. Will not affect animals.",
+          "distance": "Distance between the player and the monster."
+        }
+      },
+      "killsaura": {
+        "name": "Kill Aura",
+        "description": "Automatically kills enemies around you",
+        "warning": "Can be risky in endgame",
+        "options": {
+          "type": "Kill aura type",
+          "range": "Range (m)",
+          "attack_delay": "Attack Delay (ms)",
+          "only_targeted": "Only Hostile/Aggro"
+        },
+        "tooltips": {
+          "type": "'Overworld': better in world and safer, DON'T USE IN DUNGEONS!\n'Dungeon': slower than 'Overworld', but works in dungeons.",
+          "only_targeted": "If enabled, kill aura will only affect monsters targeting/aggro towards you."
+        },
+        "status": {
+          "label": "Kill Aura"
+        }
+      },
+      "gamespeed": {
+        "name": "Game Speed",
+        "description": "Adjusts Unity time scale",
+        "warning": "WARNING: Do NOT use this in the Open World (and endgame), only use in menus/etc, VERY DANGEROUS!",
+        "options": {
+          "hotkey_mode": "Hotkey Mode",
+          "hotkey": "Hotkey",
+          "speed_multiplier": "Speed Multiplier"
+        },
+        "tooltips": {
+          "hotkey_mode": "When enabled, game speed is active only while hotkey is pressed.\nWhen disabled, game speed is always active when feature is enabled.",
+          "speed_multiplier": "Game speed multiplier. Higher values = faster game."
+        }
+      },
+      "autoseelie": {
+        "name": "Auto Seelie",
+        "description": "Once you first 'activate' the seelie, it will start automatically going to the target.",
+        "warning": "",
+        "options": {
+          "speedup": "Speedup Seelies",
+          "auto_start_range": "Auto-start range (m)"
+        }
+      },
+      "vacuumloot": {
+        "name": "Vacuum Loot",
+        "description": "Pull dropped items to the player automatically",
+        "warning": "",
+        "hotkey_hint": "Hotkey toggles the feature globally."
+      },
+      "autotalk": {
+        "name": "Auto Dialogue",
+        "description": "Automatically goes through dialogues",
+        "warning": "Can be risky on high values",
+        "options": {
+          "auto_choose": "Automatically choose reply",
+          "dialogue_speed": "Dialogue speed"
+        },
+        "tooltips": {
+          "auto_choose": "Automatically selects the first dialogue option when choices appear.",
+          "dialogue_speed": "Controls how fast characters appear in dialogue.\n1.0 = normal speed, 10.0 = ~10x faster."
+        },
+        "status": {
+          "label": "Auto Dialogue",
+          "auto_choose_suffix": " [Auto Choose]"
+        }
+      },
+      "elementalaura": {
+        "name": "Elemental Aura",
+        "description": "Constantly apply an element to targets around you",
+        "warning": "",
+        "options": {
+          "enabled": "Enable Elemental Aura",
+          "only_targeted": "Only Hostile/Aggro",
+          "hit_objects": "Try Hit Objects",
+          "smart_element": "Smart Element",
+          "monster_element": "Monster Applied Element",
+          "object_element": "Object Applied Element",
+          "aura_range": "Aura Range",
+          "queue_delay": "Queue Delay (ms)",
+          "apply_interval": "Apply Interval (ms)",
+          "element_durability": "Element Durability"
+        },
+        "status": {
+          "label": "Elemental Aura",
+          "aggro": "Aggro",
+          "all": "All",
+          "obj": "+Obj",
+          "smart": "Smart",
+          "normal": "Normal"
+        },
+        "elements": {
+          "physical": "Physical",
+          "pyro": "Pyro",
+          "hydro": "Hydro",
+          "anemo": "Anemo",
+          "electro": "Electro",
+          "dendro": "Dendro",
+          "cryo": "Cryo",
+          "geo": "Geo",
+          "frozen": "Frozen",
+          "antifire": "AntiFire",
+          "vehicleice": "VehicleIce",
+          "mushroom": "Mushroom"
+        }
+      },
+      "skipenhanceanimation": {
+        "name": "Skip Enhance Animation",
+        "description": "Speeds up weapon/artifact enhancement dialogs",
+        "warning": "",
+        "options": {
+          "show_levelup_dialog": "Show level-up dialog"
+        },
+        "status": {
+          "label": "Enhance animation: %s",
+          "dialog_only": "dialog only",
+          "skipped": "skipped"
+        }
+      },
+      "autochallenge": {
+        "name": "Auto Challenge",
+        "description": "Automatically collect time challenge items",
+        "warning": "",
+        "options": {
+          "enabled": "Enabled",
+          "destroy_bomb": "Destroy Bomb",
+          "risk_unknown": "Risk Unknown!",
+          "range": "Range (m)",
+          "delay": "Delay (ms)",
+          "custom_challenge": "Custom Challenge",
+          "enable_custom": "Enable Custom Challenge",
+          "get_gadget_id_hint": "Get gadget ID from entity manager.",
+          "display_name": "Display Name",
+          "gadget_id": "Gadget Id",
+          "add": "Add"
+        },
+        "status": {
+          "challenge": "Challenge"
+        },
+        "table": {
+          "display_name": "Display Name",
+          "gadget_id": "Gadget Id",
+          "actions": "Actions",
+          "delete": "Delete"
+        }
+      },
+      "autocook": {
+        "name": "Auto Cook",
+        "description": "Automatically cook food",
+        "warning": "",
+        "options": {
+          "enabled": "Enabled",
+          "enabled_hint": "Fast Cooking if the recipe has fast cooking open.\nIf fast cooking is closed, you in addition need to turn on Fast Proficiency.",
+          "fast_proficiency": "Fast Proficiency",
+          "fast_proficiency_hint": "Quickly prepare an unstudied recipe to the maximum possible.",
+          "count_item": "Count Item",
+          "count_item_hint": "How much to cook at a time.\n(For standard mode only.)",
+          "quality": "Quality",
+          "quality_hint": "Select the quality of cook result.",
+          "quality_options": {
+            "suspicious": "Suspicious",
+            "normal": "Normal",
+            "delicious": "Delicious"
+          }
+        },
+        "status": {
+          "proficiency": "Auto Cooking [Proficiency]",
+          "standard": "Auto Cooking [Standard]"
+        }
+      },
+      "autopuzzle": {
+        "name": "Auto Puzzle",
+        "description": "Automatically resolve puzzles",
+        "warning": "",
+        "options": {
+          "enabled": "Auto Puzzle",
+          "enabled_hint": "Auto resolve puzzle",
+          "range": "Range (m)",
+          "delay": "Delay Time (ms)",
+          "general": "General",
+          "plants": "Plants",
+          "seelie": "Seelie",
+          "elem_tablet": "Elemental Monument",
+          "torch_puzzle": "Torch Puzzle",
+          "wind_slime": "Floating Anemo Slime",
+          "bloatty_floatty": "Bloatty Floatty",
+          "pot": "Pot",
+          "campfire_torch": "Campfire Torch",
+          "pressure_plate": "Pressure Plate",
+          "parametric_transformer": "Parametric Transformer",
+          "mondstadt": "Mondstadt",
+          "snow_pile": "Snow Pile",
+          "liyue": "Liyue",
+          "windmill_mechanism": "Windmill Mechanism",
+          "geogranum": "Geogranum",
+          "inazuma": "Inazuma",
+          "electro_seelie": "Electro Seelie",
+          "lightning_strike_probe": "Lightning Strike Probe",
+          "stormstone": "Stormstone",
+          "electric_conduction": "Electric Conduction",
+          "sumeru": "Sumeru",
+          "dendro_rock": "Dendro Rock",
+          "dendro_pile": "Dendro Pile",
+          "clusterleaf_of_cultivation": "Clusterleaf Of Cultivation",
+          "sumeru_puzzles": "Sumeru Puzzles",
+          "stone_pillar_seal": "Stone Pillar Seal",
+          "death_zone_point": "the Tumor of the Withering",
+          "sand_pile": "Sand Pile",
+          "daily_commission": "Daily Commission",
+          "daily_commission_hint": "Auto resolve some daily commission such as clean stain, fallen leaves and etc.",
+          "modify_balloon_cart_speed": "Modify Balloon cart speed",
+          "modify_balloon_cart_speed_hint": "For daily commission: Rules of Safe Transportation",
+          "time_scale": "Time Scale"
+        },
+        "status": {
+          "auto_puzzle": "Auto Puzzle"
+        }
+      },
+      "autotreefarm": {
+        "name": "Auto Tree Farm",
+        "description": "Automatically attack trees in range",
+        "warning": "Note. This feature is not fully tested detection-wise.\nNot recommended for main accounts or used with high values.",
+        "options": {
+          "enabled": "Enabled",
+          "enabled_hint": "Automatically attack trees in range.",
+          "attack_delay": "Attack Delay (ms)",
+          "attack_delay_hint": "Delay before attacking the next tree (in ms).",
+          "repeat_delay": "Repeat Delay (ms)",
+          "repeat_delay_hint": "Delay before attacking the same tree (in ms).\nValues <500ms will not work.",
+          "attacks_per_tree": "Attacks per Tree",
+          "attacks_per_tree_hint": "Count of attacks for one tree.\nRecommended to set it to 10 or lower to avoid attacking empty trees.\nSet to 0 for unlimited attacks (even empty trees, extremely high risk).\nNote: Memorized trees' attacks are reset after the game restart.",
+          "range": "Range (m)",
+          "range_note": "Range is softly limited to ~15m for safety purposes."
+        },
+        "status": {
+          "tree_farm": "Tree Farm"
+        }
+      },
+      "dumbenemies": {
+        "name": "Dumb Enemies",
+        "description": "Enemies won't attack you",
+        "warning": "",
+        "options": {}
+      },
+      "autoactivatetp": {
+        "name": "Auto Activate TP",
+        "description": "Automatically unlocks TP points near you",
+        "warning": "",
+        "options": {}
+      },
+      "musicevent": {
+        "name": "Music Event",
+        "description": "Automatically complete music events with perfect scores",
+        "warning": "",
+        "options": {}
+      },
+      "entitymanager": {
+        "name": "Entity Manager",
+        "description": "View and manage all entities in the world",
+        "warning": "",
+        "options": {
+          "enabled": "Enabled"
+        },
+        "filters": {
+          "name": "Name Filter",
+          "use_radius": "Filter by Radius",
+          "radius": "Radius (m)",
+          "sort_by": "Sort By",
+          "sort_by_tooltip": "Select how to sort entities in the list",
+          "type_filters": "Type Filters",
+          "select_all": "Select All",
+          "deselect_all": "Deselect All",
+          "group_by_type": "Group by Type"
+        },
+        "sort": {
+          "distance": "Distance",
+          "name": "Name",
+          "type": "Type",
+          "runtime_id": "Runtime ID"
+        },
+        "table": {
+          "actions": "Actions",
+          "runtime_id": "Runtime ID",
+          "config_id": "Config ID",
+          "name": "Name",
+          "type": "Type",
+          "distance": "Distance",
+          "position": "Position"
+        },
+        "action": {
+          "summon": "Summon entity to player",
+          "teleport": "Teleport player to entity",
+          "banish": "Banish entity to ground (y=0)"
+        },
+        "entity_count": "Entity Count: %zu",
+        "no_entities": "No entities found"
+      }
+    },
+    "teleports": {
+      "maptp": {
+        "name": "Map TP",
+        "description": "Hold TP key and click on the world map to teleport to that location",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key",
+          "detect_ground_height": "Detect ground height",
+          "use_transport_position": "Use transport position",
+          "fallback_height": "Fallback height"
+        },
+        "status": {
+          "teleport_key": "Teleport key: %s",
+          "last": "Last: %.1f / %.1f / %.1f",
+          "teleport_status": "Teleport status: %s",
+          "running": "Running",
+          "idle": "Idle",
+          "queued": "Queued teleport to %.1f / %.1f / %.1f"
+        }
+      },
+      "custom": {
+        "title": "Custom Teleports",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "auto_teleport": "Auto teleport",
+          "intelligent_mode": "Intelligent mode",
+          "instant_teleport": "Instant teleport",
+          "random_delay": "Random delay",
+          "min_delay": "Min delay (s)",
+          "max_delay": "Max delay (s)",
+          "delay": "Delay (s)"
+        },
+        "tooltips": {
+          "instant_teleport": "Use direct position setting instead of MapTP.\nFaster but riskier for long distances."
+        },
+        "hotkeys": {
+          "section": "Hotkeys",
+          "next_node": "Next node",
+          "prev_node": "Previous node",
+          "add_node": "Add node"
+        },
+        "files": {
+          "file_name": "File name",
+          "description": "Description",
+          "create_file": "Create file",
+          "reload": "Reload",
+          "open_folder": "Open folder",
+          "table": {
+            "current": "Current",
+            "name": "Name",
+            "description": "Description",
+            "actions": "Actions"
+          },
+          "buttons": {
+            "save": "Save",
+            "reset": "Reset",
+            "delete": "Delete"
+          }
+        },
+        "nodes": {
+          "title": "Nodes (%zu)",
+          "add_current": "Add current position",
+          "remove_selected": "Remove selected nodes",
+          "radius": "Radius",
+          "remove_nearby": "Remove nearby",
+          "previous_node": "Previous node",
+          "next_node": "Next node",
+          "table": {
+            "visited": "Visited",
+            "x": "X",
+            "y": "Y",
+            "z": "Z",
+            "selected": "Selected",
+            "actions": "Actions",
+            "visited_yes": "Yes",
+            "visited_no": "No",
+            "teleport": "Teleport",
+            "delete": "Delete"
+          }
+        },
+        "status": {
+          "progress": "Progress: %zu / %zu"
+        },
+        "logs": {
+          "avatar_not_loaded": "[CustomTeleports] Avatar not loaded",
+          "added_node": "[CustomTeleports] Added node at %.2f %.2f %.2f"
+        }
+      },
+      "chesttp": {
+        "name": "Chest TP",
+        "description": "Teleports you to closest closed chest",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key"
+        },
+        "status": {
+          "title": "  TP Status:",
+          "label": "Chest TP: %s",
+          "not_found": "Not found"
+        }
+      },
+      "oculitp": {
+        "name": "Oculi TP",
+        "description": "Teleports you to closest oculus",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key"
+        },
+        "status": {
+          "title": "  TP Status:",
+          "label": "Oculi TP: %s",
+          "not_found": "Not found"
+        }
+      },
+      "questtp": {
+        "name": "Quest TP",
+        "description": "Teleports you to active tracked quest",
+        "warning": "Teleports can be risky!",
+        "options": {
+          "tp_key": "TP key"
+        }
+      }
+    },
+    "player": {
+      "worshipstatue": {
+        "name": "Worship Statue",
+        "description": "Quickly level up statues and change Traveler element",
+        "warning": "",
+        "options": {
+          "statue_type": "Statue type",
+          "offering_count": "Offering count",
+          "worship": "Worship",
+          "traveler_element": "Traveler element",
+          "resonate": "Resonate"
+        },
+        "hotkeys": {
+          "section": "Hotkeys",
+          "anemo": "Resonate Anemo",
+          "geo": "Resonate Geo",
+          "electro": "Resonate Electro",
+          "dendro": "Resonate Dendro",
+          "hydro": "Resonate Hydro"
+        },
+        "status": {
+          "label": "Auto-worship ready (%d items)"
+        },
+        "statue_types": {
+          "anemoculus": "Anemoculus",
+          "geoculus": "Geoculus",
+          "electroculus": "Electroculus",
+          "dendroculus": "Dendroculus",
+          "hydroculus": "Hydroculus"
+        },
+        "elements": {
+          "wind": "Wind",
+          "rock": "Rock",
+          "electric": "Electric",
+          "grass": "Grass",
+          "hydro": "Hydro"
+        },
+        "messages": {
+          "anemo": "Resonated with the Anemo element!",
+          "geo": "Resonated with the Geo element!",
+          "electro": "Resonated with the Electro element!",
+          "dendro": "Resonated with the Dendro element!",
+          "hydro": "Resonated with the Hydro element!"
+        }
+      },
+      "attackteammate": {
+        "name": "Attack Teammates",
+        "description": "Allows you to attack your teammates in coop-mode..",
+        "warning": "",
+        "options": {
+          "enabled": "Enable friendly fire helper"
+        },
+        "status": {
+          "label": "Friendly fire helpers active"
+        }
+      },
+      "remoteutility": {
+        "name": "Remote Utility (beta)",
+        "description": "Utility helpers: crafting, NPC summoning, entity spawning",
+        "warning": "",
+        "sections": {
+          "crafting": "Crafting",
+          "summon_npc": "Summon NPC",
+          "free_spawn": "Free spawn"
+        },
+        "options": {
+          "quick_crafting": "Quick crafting",
+          "condense_resin": "Condense Resin",
+          "spawn_alchemy_table": "Spawn Alchemy Table",
+          "hotkey": "Hotkey",
+          "custom_combine": "Custom combine (material -> result)",
+          "material_id": "Material ID",
+          "result_id": "Result ID",
+          "count": "Count",
+          "request_combine": "Request combine",
+          "katheryne": "Katheryne",
+          "wagner": "Wagner",
+          "cat_prince": "Cat Prince",
+          "distance": "Distance (m)",
+          "gadget_id": "Gadget ID",
+          "spawn_gadget": "Spawn Gadget",
+          "monster_id": "Monster ID",
+          "spawn_monster": "Spawn Monster",
+          "npc_id": "NPC ID",
+          "spawn_npc": "Spawn NPC",
+          "item_id": "Item ID",
+          "spawn_item": "Spawn Item"
+        },
+        "status": {
+          "label": "RemoteUtility: Condense[%s] | Alchemy[%s]"
+        },
+        "messages": {
+          "itemmodule_failed": "Failed to obtain ItemModule singleton (try again?)",
+          "craft_request_sent": "Craft request sent",
+          "cooking_not_implemented": "Direct Cooking UI opening is not implemented yet. Maybe it will be in future versions."
+        }
+      },
+      "rapidfire": {
+        "name": "Attack Modifier",
+        "description": "Repeats player hits and optionally propagates them to nearby targets",
+        "warning": "Can be risky",
+        "options": {
+          "enabled": "Enable attack modifier",
+          "multi_hit": "Multi-hit",
+          "hit_multiplier": "Hit multiplier",
+          "multi_target": "Multi-target",
+          "target_radius": "Target radius (m)"
+        },
+        "status": {
+          "active": "Attack Modifier: active",
+          "multi_hit": "Multi-Hit x%d",
+          "multi_target": "Multi-Target %.1fm"
+        }
+      },
+      "enhancedmovement": {
+        "name": "Enhanced Movement",
+        "description": "Jump boost and short-range blink movement",
+        "warning": "",
+        "options": {
+          "jump_boost": "Jump boost",
+          "apply_midair": "Apply mid-air",
+          "vertical_velocity": "Vertical velocity",
+          "blink_hotkey": "Blink hotkey",
+          "blink_distance": "Blink distance",
+          "target_blink_key": "Target blink key",
+          "target_entities": "Target nearby entities",
+          "target_range": "Target detection range",
+          "directional_keys": "Directional keys",
+          "forward": "Forward",
+          "backward": "Backward",
+          "left": "Left",
+          "right": "Right"
+        },
+        "status": {
+          "label": "Enhanced Movement ready"
+        }
+      },
+      "noclip": {
+        "name": "Noclip",
+        "description": "Lets you fly",
+        "warning": "",
+        "options": {
+          "speed": "Speed",
+          "use_alt_speed": "Use alt. speed",
+          "alt_speed": "Alt. Speed"
+        }
+      },
+      "infinitystamina": {
+        "name": "Infinite Stamina",
+        "description": "Makes your stamina infinite",
+        "warning": "",
+        "options": {
+          "infinite_wanderer": "Infinite Wanderer flight"
+        }
+      },
+      "infinityultimate": {
+        "name": "Infinite Ultimate",
+        "description": "Charges ult energy immediately.",
+        "warning": "",
+        "status": {
+          "label": "Infinite ultimate active"
+        }
+      },
+      "multihit": {
+        "name": "MultiHit",
+        "description": "Multiplies your attacks",
+        "warning": "Can be risky in endgame",
+        "options": {
+          "hits": "Hits"
+        }
+      },
+      "playerspeed": {
+        "name": "Player speed",
+        "description": "Speeds up player animations",
+        "warning": "",
+        "options": {
+          "speed": "Speed"
+        }
+      },
+      "noskillcd": {
+        "name": "No skill cooldown",
+        "description": "Removes skill cooldown",
+        "warning": "",
+        "options": {
+          "no_sprint_cd": "No sprint CD"
+        }
+      },
+      "walkonwater": {
+        "name": "Walk on water",
+        "description": "Lets you walk on the water",
+        "warning": ""
+      },
+      "godmode": {
+        "name": "Invincibility",
+        "description": "Makes your character invincible like a god",
+        "warning": ""
+      }
+    },
+    "visuals": {
+      "interactivemap": {
+        "name": "Interactive Map",
+        "description": "Preview map points and track completion progress",
+        "warning": "",
+        "open_hint": "Open the game map (M key) to access the full interactive map interface.",
+        "window_title": "Interactive map",
+        "tabs": {
+          "settings": "Settings",
+          "filters": "Filters"
+        },
+        "scene_label": "Scene",
+        "no_scenes": "No scenes available",
+        "options": {
+          "auto_detect_scene": "Auto-detect current scene",
+          "show_overlay": "Show overlay summary",
+          "show_completed": "Show completed points",
+          "show_incomplete": "Show incomplete points",
+          "marker_size": "Marker size"
+        },
+        "labels": {
+          "none": "Scene has no labels yet.",
+          "hidden": "(hidden)"
+        },
+        "points": {
+          "title": "%s (Scene %u) | %zu points",
+          "no_points": "No points defined for this label yet.",
+          "table": {
+            "id": "ID",
+            "x": "X",
+            "y": "Y",
+            "status": "Status"
+          },
+          "status_completed": "Completed",
+          "status_pending": "Pending",
+          "complete_button": "Complete",
+          "uncomplete_button": "Uncomplete"
+        },
+        "overlay": {
+          "title": "Interactive Map",
+          "scene": "Scene: %s",
+          "label": "Label: %s",
+          "completed": "Completed: %zu / %zu",
+          "no_label": "No label selected"
+        },
+        "scenes": {
+          "3": "Teyvat",
+          "5": "Enkanomiya",
+          "6": "Chasm: Underground",
+          "9": "Golden Apple Archipelago"
+        }
+      },
+      "skipcutscene": {
+        "name": "Skip Cutscenes",
+        "description": "Automatically skips cutscenes and game movies.",
+        "warning": "",
+        "options": {
+          "hotkey_mode": "Hotkey Mode",
+          "toggle_hotkey": "Toggle Hotkey"
+        },
+        "tooltips": {
+          "hotkey_mode": "When enabled, cutscenes are skipped only while hotkey is pressed.\nWhen disabled, cutscenes are always skipped when feature is enabled."
+        },
+        "status": {
+          "label": "Skip Cutscenes",
+          "hotkey_suffix": " [Hotkey]"
+        }
+      },
+      "fpsunlock": {
+        "name": "FPS unlock",
+        "description": "Unlocks max. framerate",
+        "warning": "",
+        "options": {
+          "target_fps": "Target FPS"
+        }
+      },
+      "fovchanger": {
+        "name": "FOV changer",
+        "description": "Changes camera field of view",
+        "warning": "",
+        "options": {
+          "target_fov": "Target FOV"
+        }
+      },
+      "resincrafter": {
+        "name": "Resin crafter",
+        "description": "Remotely crafts X pcs. of 'Condensed Resin'.\nNote: you must have enough resources",
+        "warning": "",
+        "options": {
+          "resin_pieces": "Resin pieces",
+          "craft": "Craft"
+        }
+      },
+      "skinmodifier": {
+        "name": "Skin Modifier",
+        "description": "Replaces specific character skins locally",
+        "warning": "",
+        "status": {
+          "active": "Skin overrides active: %d"
+        },
+        "fallback_avatar": "Avatar %u"
+      },
+      "menuunlocker": {
+        "name": "Menu Unlocker",
+        "description": "Unlocks Paimon menu entries and removes region borders",
+        "warning": "",
+        "options": {
+          "unlock_paimon": "Unlock Paimon menu entries",
+          "disable_region": "Disable red region limit"
+        },
+        "status": {
+          "label": "Menu unlocker active",
+          "menu_suffix": " | Menu",
+          "region_suffix": " | Region"
+        }
+      },
+      "profilechanger": {
+        "name": "Custom Profile",
+        "description": "Changes visible profile information and watermark",
+        "warning": "",
+        "options": {
+          "override_uid": "Override UID watermark",
+          "uid_value": "UID value",
+          "add_prefix": "Add \"UID:\" prefix",
+          "bold_style": "Bold style",
+          "italic_style": "Italic style",
+          "font_size": "Font size",
+          "position_x": "Position X",
+          "position_y": "Position Y",
+          "update_interval": "Update interval (ms)",
+          "override_nickname": "Override nickname",
+          "nickname": "Nickname",
+          "override_adventure_rank": "Override adventure rank",
+          "adventure_rank_value": "Adventure rank value",
+          "override_world_level": "Override world level",
+          "world_level_value": "World level value",
+          "override_exp_text": "Override experience text",
+          "current_exp": "Current EXP",
+          "max_exp": "Max EXP",
+          "override_exp_bar": "Override EXP bar",
+          "exp_bar_value": "EXP bar value",
+          "custom_avatar_image": "Custom avatar image",
+          "avatar_image_path": "Avatar image path",
+          "custom_namecard_image": "Custom namecard image",
+          "namecard_image_path": "Namecard image path"
+        },
+        "hints": {
+          "images": "Images must be PNG files (avatar: 256x256, card: 840x400)."
+        },
+        "status": {
+          "label": "Profile changer active",
+          "uid_suffix": " | UID",
+          "images_suffix": " | Images"
+        }
+      },
+      "graphicschanger": {
+        "name": "Graphics changer",
+        "description": "Changes some graphics settings",
+        "warning": "",
+        "options": {
+          "gamma": "Gamma",
+          "outline_width": "Outline width",
+          "resolution_scale": "Resolution scale",
+          "reset": "Reset"
+        },
+        "tooltip": {
+          "warning": "Be careful! Values above 2.0 might crash your game on low-end PCs. Open and close game map to apply."
+        }
+      },
+      "flycloakchanger": {
+        "name": "Change Glider",
+        "description": "Changes your Glider. Change avatar to apply.",
+        "warning": "",
+        "options": {
+          "selector_label": "Flycloak"
+        },
+        "flycloaks": {
+          "140004": "Wings of Azure Wind",
+          "140002": "Wings of Companionship",
+          "140006": "Wings of Concealing Snow",
+          "140014": "Wings of Delicacies",
+          "140003": "Wings of Descension",
+          "140016": "Wings of Fate's Course Intertwined",
+          "140007": "Wings of Feasting",
+          "140001": "Wings of First Flight",
+          "140005": "Wings of Golden Flight",
+          "140012": "Wings of Merciful, Wrathful Waters",
+          "140009": "Wings of Shimmering Galaxy",
+          "140015": "Wings of Soaring Flame",
+          "140010": "Wings of the Forest",
+          "140011": "Wings of the Starlit Feast",
+          "140008": "Wings of the Stormstrider",
+          "140013": "Wings of Transient Dreams"
+        }
+      },
+      "uncensor": {
+        "name": "Remove censorship",
+        "description": "Removes camera censorship at certain angles",
+        "warning": ""
+      },
+      "openteamimmediately": {
+        "name": "Open team immediately",
+        "description": "Allows you to open team setup immediately",
+        "warning": ""
+      },
+      "instantbowcharge": {
+        "name": "Instant bow charge",
+        "description": "Fully charges bow instantly",
+        "warning": ""
+      },
+      "hidedamage": {
+        "name": "Hide damage text",
+        "description": "Hides damage text",
+        "warning": "May not work :("
+      },
+      "constchanger": {
+        "name": "C6 Unlocker",
+        "description": "Unlocks C6 on your character. Switch avatar to apply.\nMost constellations will not have actual effect, though some still will. Do not report it as a bug.",
+        "warning": "DISABLE BEFORE GOING INTO ENDGAME!"
+      }
+    }
+  }
+}
