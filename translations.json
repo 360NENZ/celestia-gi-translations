@@ -3,6 +3,7 @@
     "languages": {
       "en": "English",
       "ru": "Русский"
+      "pl": "Polski"
     }
   },
   "credits": {
@@ -16,10 +17,12 @@
     "translator_list": [
       "Aoyuki (EN)",
       "Auto-translate (RU)"
+      "dxrkn3sssss (PL)"
     ]
   },
   "language_files": {
     "en": "en.json",
     "ru": "ru.json"
+    "pl": "pl.json"
   }
 }
