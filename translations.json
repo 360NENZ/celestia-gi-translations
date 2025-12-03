@@ -3,7 +3,8 @@
     "languages": {
       "en": "English",
       "ru": "Русский",
-      "pl": "Polski"
+      "pl": "Polski",
+      "zh-cn": "简体中文"
     }
   },
   "credits": {
@@ -17,12 +18,14 @@
     "translator_list": [
       "Aoyuki (EN)",
       "Auto-translate (RU)",
-      "dxrkn3sssss (PL)"
+      "dxrkn3sssss (PL)",
+      "360NENZ (ZH-CN)"
     ]
   },
   "language_files": {
     "en": "en.json",
     "ru": "ru.json",
-    "pl": "pl.json"
+    "pl": "pl.json",
+    "zh-cn": "zh-cn.json"
   }
 }
