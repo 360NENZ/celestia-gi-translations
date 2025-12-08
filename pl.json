@@ -302,10 +302,13 @@
         }
       },
       "vacuumloot": {
-        "name": "Przyciąganie lootu",
-        "description": "Automatycznie przyciąga upuszczone przedmioty do gracza",
-        "warning": "",
-        "hotkey_hint": "Klawisz przełącza funkcję globalnie."
+      "name": "Przyciąganie lootu",
+      "description": "Automatycznie przyciąga upuszczone przedmioty do gracza",
+      "warning": "",
+      "options": {
+        "range": "Zasięg (m)"
+      },
+      "hotkey_hint": "Klawisz przełącza funkcję globalnie."
       },
       "autotalk": {
         "name": "Auto-dialog",
@@ -505,7 +508,10 @@
         "name": "Auto-aktywacja TP",
         "description": "Automatycznie odblokowuje punkty teleportacji w pobliżu",
         "warning": "",
-        "options": {}
+        "options": {
+          "range": "Zasięg (m)",
+          "delay": "Opóźnienie (ms)"
+        }
       },
       "musicevent": {
         "name": "Event muzyczny",
@@ -696,7 +702,8 @@
           "geo": "Rezonuj z Geo",
           "electro": "Rezonuj z Electro",
           "dendro": "Rezonuj z Dendro",
-          "hydro": "Rezonuj z Hydro"
+          "hydro": "Rezonuj z Hydro",
+          "pyro": "Rezonuj z Pyro"
         },
         "status": {
           "label": "Auto-kult gotowy (%d przedmiotów)"
@@ -706,21 +713,25 @@
           "geoculus": "Geoculus",
           "electroculus": "Electroculus",
           "dendroculus": "Dendroculus",
-          "hydroculus": "Hydroculus"
+          "hydroculus": "Hydroculus",
+          "pyroculus": "Pyroculus",
+          "lunaculus": "Lunaculus"
         },
         "elements": {
           "wind": "Wiatr",
           "rock": "Skała",
           "electric": "Elektryczność",
           "grass": "Trawa",
-          "hydro": "Hydro"
+          "hydro": "Hydro",
+          "pyro": "Pyro"
         },
         "messages": {
           "anemo": "Zarezonowano z żywiołem Anemo!",
           "geo": "Zarezonowano z żywiołem Geo!",
           "electro": "Zarezonowano z żywiołem Electro!",
           "dendro": "Zarezonowano z żywiołem Dendro!",
-          "hydro": "Zarezonowano z żywiołem Hydro!"
+          "hydro": "Zarezonowano z żywiołem Hydro!",
+          "pyro": "Zarezonowano z żywiołem Pyro!"
         }
       },
       "attackteammate": {
@@ -780,7 +791,7 @@
         "description": "Powtarza trafienia gracza i opcjonalnie przenosi je na pobliskie cele",
         "warning": "Może być ryzykowne",
         "options": {
-          "enabled": "Włącz modyfikator ataku",
+          "enabled": "Włącz Rapid Fire",
           "multi_hit": "Multi-Hit",
           "hit_multiplier": "Mnożnik trafień",
           "multi_target": "Multi-Target",
