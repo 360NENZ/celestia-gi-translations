@@ -556,280 +556,280 @@
     },
     "teleports": {
       "maptp": {
-        "name": "Map TP",
-        "description": "Hold TP key and click on the world map to teleport to that location",
-        "warning": "Teleports can be risky!",
+        "name": "地图传送",
+        "description": "按住传送键并在地图上点击即可传送至该地点",
+        "warning": "传送有风险！",
         "options": {
-          "tp_key": "TP key",
-          "detect_ground_height": "Detect ground height",
-          "use_transport_position": "Use transport position",
-          "fallback_height": "Fallback height"
+          "tp_key": "传送键",
+          "detect_ground_height": "检测地面高度",
+          "use_transport_position": "使用传送点",
+          "fallback_height": "备用高度"
         },
         "status": {
-          "teleport_key": "Teleport key: %s",
-          "last": "Last: %.1f / %.1f / %.1f",
-          "teleport_status": "Teleport status: %s",
-          "running": "Running",
-          "idle": "Idle",
-          "queued": "Queued teleport to %.1f / %.1f / %.1f"
+          "teleport_key": "传送键: %s",
+          "last": "上一个: %.1f / %.1f / %.1f",
+          "teleport_status": "传送状态: %s",
+          "running": "运行中",
+          "idle": "空闲",
+          "queued": "队列传送到 %.1f / %.1f / %.1f"
         }
       },
       "custom": {
-        "title": "Custom Teleports",
-        "warning": "Teleports can be risky!",
+        "title": "自定义传送",
+        "warning": "传送有风险！",
         "options": {
-          "auto_teleport": "Auto teleport",
-          "intelligent_mode": "Intelligent mode",
-          "instant_teleport": "Instant teleport",
-          "random_delay": "Random delay",
-          "min_delay": "Min delay (s)",
-          "max_delay": "Max delay (s)",
-          "delay": "Delay (s)"
+          "auto_teleport": "自动传送",
+          "intelligent_mode": "智能模式",
+          "instant_teleport": "瞬移",
+          "random_delay": "随机延迟",
+          "min_delay": "最小延迟 (秒)",
+          "max_delay": "最大延迟 (秒)",
+          "delay": "延迟 (秒)"
         },
         "tooltips": {
-          "instant_teleport": "Use direct position setting instead of MapTP.\nFaster but riskier for long distances."
+          "instant_teleport": "使用直接位置设置，而不是使用地图传送。\n速度更快，但远距离风险更高。"
         },
         "hotkeys": {
-          "section": "Hotkeys",
-          "next_node": "Next node",
-          "prev_node": "Previous node",
-          "add_node": "Add node"
+          "section": "热键",
+          "next_node": "下一点位",
+          "prev_node": "上一点位",
+          "add_node": "添加点位"
         },
         "files": {
-          "file_name": "File name",
-          "description": "Description",
-          "create_file": "Create file",
-          "reload": "Reload",
-          "open_folder": "Open folder",
+          "file_name": "文件名",
+          "description": "描述",
+          "create_file": "创建文件",
+          "reload": "重载",
+          "open_folder": "打开文件夹",
           "table": {
-            "current": "Current",
-            "name": "Name",
-            "description": "Description",
-            "actions": "Actions"
+            "current": "当前",
+            "name": "名称",
+            "description": "描述",
+            "actions": "行为"
           },
           "buttons": {
-            "save": "Save",
-            "reset": "Reset",
-            "delete": "Delete"
+            "save": "保存",
+            "reset": "重置",
+            "delete": "删除"
           }
         },
         "nodes": {
-          "title": "Nodes (%zu)",
-          "add_current": "Add current position",
-          "remove_selected": "Remove selected nodes",
-          "radius": "Radius",
-          "remove_nearby": "Remove nearby",
-          "previous_node": "Previous node",
-          "next_node": "Next node",
+          "title": "点位 (%zu)",
+          "add_current": "添加当前位置",
+          "remove_selected": "删除选定点位",
+          "radius": "半径",
+          "remove_nearby": "移除临近点位",
+          "previous_node": "上一点位",
+          "next_node": "下一点位",
           "table": {
-            "visited": "Visited",
+            "visited": "已到达",
             "x": "X",
             "y": "Y",
             "z": "Z",
-            "selected": "Selected",
-            "actions": "Actions",
-            "visited_yes": "Yes",
-            "visited_no": "No",
-            "teleport": "Teleport",
-            "delete": "Delete"
+            "selected": "已选择",
+            "actions": "行为",
+            "visited_yes": "是",
+            "visited_no": "否",
+            "teleport": "传送",
+            "delete": "删除"
           }
         },
         "status": {
-          "progress": "Progress: %zu / %zu"
+          "progress": "进程: %zu / %zu"
         },
         "logs": {
-          "avatar_not_loaded": "[CustomTeleports] Avatar not loaded",
-          "added_node": "[CustomTeleports] Added node at %.2f %.2f %.2f"
+          "avatar_not_loaded": "[自定义传送] 角色未加载",
+          "added_node": "[自定义传送点] 在以下位置添加了节点： %.2f %.2f %.2f"
         }
       },
       "chesttp": {
-        "name": "Chest TP",
-        "description": "Teleports you to closest closed chest",
-        "warning": "Teleports can be risky!",
+        "name": "宝箱传送",
+        "description": "传送至最近的宝箱",
+        "warning": "传送有风险！",
         "options": {
-          "tp_key": "TP key"
+          "tp_key": "传送键"
         },
         "status": {
-          "title": "  TP Status:",
-          "label": "Chest TP: %s",
-          "not_found": "Not found"
+          "title": "传送状态:",
+          "label": "宝箱传送: %s",
+          "not_found": "未找到"
         }
       },
       "oculitp": {
-        "name": "Oculi TP",
-        "description": "Teleports you to closest oculus",
-        "warning": "Teleports can be risky!",
+        "name": "神瞳传送",
+        "description": "传送至最近的神瞳",
+        "warning": "传送有风险！",
         "options": {
-          "tp_key": "TP key"
+          "tp_key": "传送键"
         },
         "status": {
-          "title": "  TP Status:",
-          "label": "Oculi TP: %s",
-          "not_found": "Not found"
+          "title": "传送状态::",
+          "label": "神瞳传送: %s",
+          "not_found": "未找到"
         }
       },
       "questtp": {
-        "name": "Quest TP",
-        "description": "Teleports you to active tracked quest",
-        "warning": "Teleports can be risky!",
+        "name": "任务点传送",
+        "description": "传送至正在追踪的任务点",
+        "warning": "传送有风险！",
         "options": {
-          "tp_key": "TP key"
+          "tp_key": "传送键"
         }
       }
     },
     "player": {
       "worshipstatue": {
-        "name": "Worship Statue",
-        "description": "Quickly level up statues and change Traveler element",
+        "name": "供奉神像",
+        "description": "快速提升神像等级并切换旅行者的元素",
         "warning": "",
         "options": {
-          "statue_type": "Statue type",
-          "offering_count": "Offering count",
-          "worship": "Worship",
-          "traveler_element": "Traveler element",
-          "resonate": "Resonate"
+          "statue_type": "神像类型",
+          "offering_count": "提供数量",
+          "worship": "供奉",
+          "traveler_element": "旅行者的元素",
+          "resonate": "共鸣"
         },
         "hotkeys": {
-          "section": "Hotkeys",
-          "anemo": "Resonate Anemo",
-          "geo": "Resonate Geo",
-          "electro": "Resonate Electro",
-          "dendro": "Resonate Dendro",
-          "hydro": "Resonate Hydro"
+          "section": "热键",
+          "anemo": "与风元素共鸣",
+          "geo": "与岩元素共鸣",
+          "electro": "与雷元素共鸣",
+          "dendro": "与草元素共鸣",
+          "hydro": "与水元素共鸣"
         },
         "status": {
-          "label": "Auto-worship ready (%d items)"
+          "label": "自动供奉已就绪 (%d 物品)"
         },
         "statue_types": {
-          "anemoculus": "Anemoculus",
-          "geoculus": "Geoculus",
-          "electroculus": "Electroculus",
-          "dendroculus": "Dendroculus",
-          "hydroculus": "Hydroculus"
+          "anemoculus": "风神瞳",
+          "geoculus": "岩神瞳",
+          "electroculus": "雷神瞳",
+          "dendroculus": "草神瞳",
+          "hydroculus": "水神瞳"
         },
         "elements": {
-          "wind": "Wind",
-          "rock": "Rock",
-          "electric": "Electric",
-          "grass": "Grass",
-          "hydro": "Hydro"
+          "wind": "风",
+          "rock": "岩",
+          "electric": "雷",
+          "grass": "草",
+          "hydro": "水"
         },
         "messages": {
-          "anemo": "Resonated with the Anemo element!",
-          "geo": "Resonated with the Geo element!",
-          "electro": "Resonated with the Electro element!",
-          "dendro": "Resonated with the Dendro element!",
-          "hydro": "Resonated with the Hydro element!"
+          "anemo": "与风元素共鸣!",
+          "geo": "与岩元素共鸣!",
+          "electro": "与雷元素共鸣!",
+          "dendro": "与草元素共鸣!",
+          "hydro": "与水元素共鸣!"
         }
       },
       "attackteammate": {
-        "name": "Attack Teammates",
-        "description": "Allows you to attack your teammates in coop-mode..",
+        "name": "攻击队友",
+        "description": "允许你在联机模式中攻击队友。",
         "warning": "",
         "options": {
-          "enabled": "Enable friendly fire helper"
+          "enabled": "启用友军伤害辅助功能"
         },
         "status": {
-          "label": "Friendly fire helpers active"
+          "label": "友军伤害辅助功能已启用"
         }
       },
       "remoteutility": {
-        "name": "Remote Utility (beta)",
-        "description": "Utility helpers: crafting, NPC summoning, entity spawning",
+        "name": "远程工具 (beta)",
+        "description": "Utility helpers: 合成, NPC召唤, 实体生成",
         "warning": "",
         "sections": {
-          "crafting": "Crafting",
-          "summon_npc": "Summon NPC",
-          "free_spawn": "Free spawn"
+          "crafting": "合成",
+          "summon_npc": "召唤 NPC",
+          "free_spawn": "自由生成"
         },
         "options": {
-          "quick_crafting": "Quick crafting",
-          "condense_resin": "Condense Resin",
-          "spawn_alchemy_table": "Spawn Alchemy Table",
-          "hotkey": "Hotkey",
-          "custom_combine": "Custom combine (material -> result)",
-          "material_id": "Material ID",
-          "result_id": "Result ID",
-          "count": "Count",
-          "request_combine": "Request combine",
-          "katheryne": "Katheryne",
-          "wagner": "Wagner",
-          "cat_prince": "Cat Prince",
-          "distance": "Distance (m)",
-          "gadget_id": "Gadget ID",
-          "spawn_gadget": "Spawn Gadget",
-          "monster_id": "Monster ID",
-          "spawn_monster": "Spawn Monster",
+          "quick_crafting": "快速合成",
+          "condense_resin": "合成浓缩树脂",
+          "spawn_alchemy_table": "生成合成台",
+          "hotkey": "热键",
+          "custom_combine": "自定义合成 (材料 -> 结果)",
+          "material_id": "材料 ID",
+          "result_id": "结果 ID",
+          "count": "数量",
+          "request_combine": "请求合成",
+          "katheryne": "凯瑟琳",
+          "wagner": "铁匠",
+          "cat_prince": "「小王子」",
+          "distance": "距离 (米)",
+          "gadget_id": "道具 ID",
+          "spawn_gadget": "生成 Gadget",
+          "monster_id": "怪物 ID",
+          "spawn_monster": "生成怪物",
           "npc_id": "NPC ID",
-          "spawn_npc": "Spawn NPC",
-          "item_id": "Item ID",
-          "spawn_item": "Spawn Item"
+          "spawn_npc": "生成 NPC",
+          "item_id": "物品 ID",
+          "spawn_item": "生成物品"
         },
         "status": {
-          "label": "RemoteUtility: Condense[%s] | Alchemy[%s]"
+          "label": "远程工具: 浓缩[%s] | 合成[%s]"
         },
         "messages": {
-          "itemmodule_failed": "Failed to obtain ItemModule singleton (try again?)",
-          "craft_request_sent": "Craft request sent",
-          "cooking_not_implemented": "Direct Cooking UI opening is not implemented yet. Maybe it will be in future versions."
+          "itemmodule_failed": "获取ItemModule单例失败 (重试?) ",
+          "craft_request_sent": "合成请求已发送",
+          "cooking_not_implemented": "直接烹饪界面的打开功能尚未实现。或许会在未来版本中加入。"
         }
       },
       "rapidfire": {
-        "name": "Attack Modifier",
-        "description": "Repeats player hits and optionally propagates them to nearby targets",
-        "warning": "Can be risky",
+        "name": "攻击修改器",
+        "description": "重复玩家的攻击，并可选择性地将其传播至附近目标",
+        "warning": "可能有风险！",
         "options": {
-          "enabled": "Enable attack modifier",
-          "multi_hit": "Multi-hit",
-          "hit_multiplier": "Hit multiplier",
-          "multi_target": "Multi-target",
-          "target_radius": "Target radius (m)"
+          "enabled": "启用攻击修改器",
+          "multi_hit": "多次命中",
+          "hit_multiplier": "命中倍率",
+          "multi_target": "多目标",
+          "target_radius": "目标半径 (米)"
         },
         "status": {
-          "active": "Attack Modifier: active",
-          "multi_hit": "Multi-Hit x%d",
-          "multi_target": "Multi-Target %.1fm"
+          "active": "攻击修改器: 生效",
+          "multi_hit": "多次命中 x%d",
+          "multi_target": "多目标 %.1fm"
         }
       },
       "enhancedmovement": {
-        "name": "Enhanced Movement",
-        "description": "Jump boost and short-range blink movement",
+        "name": "移动增强",
+        "description": "超级跳与闪现",
         "warning": "",
         "options": {
-          "jump_boost": "Jump boost",
-          "apply_midair": "Apply mid-air",
-          "vertical_velocity": "Vertical velocity",
-          "blink_hotkey": "Blink hotkey",
-          "blink_distance": "Blink distance",
-          "target_blink_key": "Target blink key",
-          "target_entities": "Target nearby entities",
-          "target_range": "Target detection range",
-          "directional_keys": "Directional keys",
-          "forward": "Forward",
-          "backward": "Backward",
-          "left": "Left",
-          "right": "Right"
+          "jump_boost": "超级跳",
+          "apply_midair": "空中可用",
+          "vertical_velocity": "垂直速度",
+          "blink_hotkey": "闪现热键",
+          "blink_distance": "闪现距离",
+          "target_blink_key": "目标闪现热键",
+          "target_entities": "Target 邻近实体",
+          "target_range": "目标检测范围",
+          "directional_keys": "方向键",
+          "forward": "前",
+          "backward": "后",
+          "left": "左",
+          "right": "右"
         },
         "status": {
-          "label": "Enhanced Movement ready"
+          "label": "移动增强已就绪"
         }
       },
       "noclip": {
-        "name": "Noclip",
-        "description": "Lets you fly",
+        "name": "自由移动",
+        "description": "：“飞起来！”",
         "warning": "",
         "options": {
-          "speed": "Speed",
-          "use_alt_speed": "Use alt. speed",
-          "alt_speed": "Alt. Speed"
+          "speed": "速度",
+          "use_alt_speed": "使用变速",
+          "alt_speed": "变速"
         }
       },
       "infinitystamina": {
-        "name": "Infinite Stamina",
-        "description": "Makes your stamina infinite",
+        "name": "无限体力",
+        "description": "无限体力",
         "warning": "",
         "options": {
-          "infinite_wanderer": "Infinite Wanderer flight"
+          "infinite_wanderer": "流浪者无限飞行"
         }
       },
       "infinityultimate": {
@@ -841,215 +841,215 @@
         }
       },
       "multihit": {
-        "name": "MultiHit",
-        "description": "Multiplies your attacks",
-        "warning": "Can be risky in endgame",
+        "name": "多重命中",
+        "description": "使攻击次数倍增",
+        "warning": "可能有风险in endgame",
         "options": {
-          "hits": "Hits"
+          "hits": "命中"
         }
       },
       "playerspeed": {
-        "name": "Player speed",
-        "description": "Speeds up player animations",
+        "name": "玩家速度",
+        "description": "加快玩家动画速度",
         "warning": "",
         "options": {
-          "speed": "Speed"
+          "speed": "速度"
         }
       },
       "noskillcd": {
-        "name": "No skill cooldown",
-        "description": "Removes skill cooldown",
+        "name": "无技能 CD",
+        "description": "移除技能 CD",
         "warning": "",
         "options": {
-          "no_sprint_cd": "No sprint CD"
+          "no_sprint_cd": "无冲刺 CD"
         }
       },
       "walkonwater": {
-        "name": "Walk on water",
-        "description": "Lets you walk on the water",
+        "name": "水上行走",
+        "description": "让你在水上行走",
         "warning": ""
       },
       "godmode": {
-        "name": "Invincibility",
-        "description": "Makes your character invincible like a god",
+        "name": "无敌",
+        "description": "“你无敌了，孩子”",
         "warning": ""
       }
     },
     "visuals": {
       "interactivemap": {
-        "name": "Interactive Map",
-        "description": "Preview map points and track completion progress",
+        "name": "交互式地图",
+        "description": "预览地图标记点与路线完成进度",
         "warning": "",
-        "open_hint": "Open the game map (M key) to access the full interactive map interface.",
-        "window_title": "Interactive map",
+        "open_hint": "打开游戏地图(M键) 来进入完整的交互式地图界面。",
+        "window_title": "交互式地图",
         "tabs": {
-          "settings": "Settings",
-          "filters": "Filters"
+          "settings": "设置",
+          "filters": "筛选器"
         },
-        "scene_label": "Scene",
-        "no_scenes": "No scenes available",
+        "scene_label": "场景",
+        "no_scenes": "没有可用场景",
         "options": {
-          "auto_detect_scene": "Auto-detect current scene",
-          "show_overlay": "Show overlay summary",
-          "show_completed": "Show completed points",
-          "show_incomplete": "Show incomplete points",
-          "marker_size": "Marker size"
+          "auto_detect_scene": "自动检测当前场景",
+          "show_overlay": "显示 overlay summary",
+          "show_completed": "显示已完成的点位",
+          "show_incomplete": "显示未完成的点位",
+          "marker_size": "标记尺寸"
         },
         "labels": {
-          "none": "Scene has no labels yet.",
-          "hidden": "(hidden)"
+          "none": "场景尚未添加标签。",
+          "hidden": "(隐藏)"
         },
         "points": {
-          "title": "%s (Scene %u) | %zu points",
-          "no_points": "No points defined for this label yet.",
+          "title": "场景: %u | 位置: %s;",
+          "no_points": "此标签尚未定义任何点。",
           "table": {
             "id": "ID",
             "x": "X",
             "y": "Y",
-            "status": "Status"
+            "status": "状态"
           },
-          "status_completed": "Completed",
-          "status_pending": "Pending",
-          "complete_button": "Complete",
-          "uncomplete_button": "Uncomplete"
+          "status_completed": "已完成",
+          "status_pending": "待定",
+          "complete_button": "完成",
+          "uncomplete_button": "未完成"
         },
         "overlay": {
-          "title": "Interactive Map",
-          "scene": "Scene: %s",
-          "label": "Label: %s",
-          "completed": "Completed: %zu / %zu",
-          "no_label": "No label selected"
+          "title": "交互式地图",
+          "scene": "场景: %s",
+          "label": "标签: %s",
+          "completed": "已完成: %zu / %zu",
+          "no_label": "未选择标签"
         },
         "scenes": {
-          "3": "Teyvat",
-          "5": "Enkanomiya",
-          "6": "Chasm: Underground",
-          "9": "Golden Apple Archipelago"
+          "3": "提瓦特",
+          "5": "渊下宫",
+          "6": "层岩巨渊：地下矿区",
+          "9": "金苹果群岛"
         }
       },
       "skipcutscene": {
-        "name": "Skip Cutscenes",
-        "description": "Automatically skips cutscenes and game movies.",
+        "name": "跳过过场动画",
+        "description": "自动跳过过场动画和游戏影片。",
         "warning": "",
         "options": {
-          "hotkey_mode": "Hotkey Mode",
-          "toggle_hotkey": "Toggle Hotkey"
+          "hotkey_mode": "热键模式",
+          "toggle_hotkey": "切换热键"
         },
         "tooltips": {
-          "hotkey_mode": "When enabled, cutscenes are skipped only while hotkey is pressed.\nWhen disabled, cutscenes are always skipped when feature is enabled."
+          "hotkey_mode": "启用后，仅在按下热键期间跳过过场动画。\n禁用后, 启用该功能时过场动画将始终被跳过。"
         },
         "status": {
-          "label": "Skip Cutscenes",
-          "hotkey_suffix": " [Hotkey]"
+          "label": "跳过过场动画",
+          "hotkey_suffix": " [热键]"
         }
       },
       "fpsunlock": {
-        "name": "FPS unlock",
-        "description": "Unlocks max. framerate",
+        "name": "FPS帧率解锁",
+        "description": "解锁最高帧率",
         "warning": "",
         "options": {
-          "target_fps": "Target FPS"
+          "target_fps": "目标帧率"
         }
       },
       "fovchanger": {
-        "name": "FOV changer",
-        "description": "Changes camera field of view",
+        "name": "视场修改",
+        "description": "更改相机视野",
         "warning": "",
         "options": {
-          "target_fov": "Target FOV"
+          "target_fov": "目标视野"
         }
       },
       "resincrafter": {
-        "name": "Resin crafter",
-        "description": "Remotely crafts X pcs. of 'Condensed Resin'.\nNote: you must have enough resources",
+        "name": "树脂合成",
+        "description": "远程合成 X 个 “浓缩树脂”。\n注意: 你必须拥有足够的资源",
         "warning": "",
         "options": {
-          "resin_pieces": "Resin pieces",
-          "craft": "Craft"
+          "resin_pieces": "树脂数量",
+          "craft": "合成"
         }
       },
       "skinmodifier": {
-        "name": "Skin Modifier",
-        "description": "Replaces specific character skins locally",
+        "name": "皮肤修改器",
+        "description": "本地修改特定角色的皮肤",
         "warning": "",
         "status": {
-          "active": "Skin overrides active: %d"
+          "active": "皮肤修改活动状态: %d"
         },
-        "fallback_avatar": "Avatar %u"
+        "fallback_avatar": "角色 %u"
       },
       "menuunlocker": {
-        "name": "Menu Unlocker",
-        "description": "Unlocks Paimon menu entries and removes region borders",
+        "name": "菜单解锁器",
+        "description": "解锁派蒙菜单选项并移除区域边界",
         "warning": "",
         "options": {
-          "unlock_paimon": "Unlock Paimon menu entries",
-          "disable_region": "Disable red region limit"
+          "unlock_paimon": "解锁派蒙菜单选项",
+          "disable_region": "禁用红色区域限制"
         },
         "status": {
-          "label": "Menu unlocker active",
-          "menu_suffix": " | Menu",
-          "region_suffix": " | Region"
+          "label": "菜单解锁器已激活",
+          "menu_suffix": " | 菜单",
+          "region_suffix": " | 区域"
         }
       },
       "profilechanger": {
-        "name": "Custom Profile",
-        "description": "Changes visible profile information and watermark",
+        "name": "自定义资料卡",
+        "description": "修改可见的个人资料信息和水印",
         "warning": "",
         "options": {
-          "override_uid": "Override UID watermark",
-          "uid_value": "UID value",
-          "add_prefix": "Add \"UID:\" prefix",
-          "bold_style": "Bold style",
-          "italic_style": "Italic style",
-          "font_size": "Font size",
-          "position_x": "Position X",
-          "position_y": "Position Y",
-          "update_interval": "Update interval (ms)",
-          "override_nickname": "Override nickname",
-          "nickname": "Nickname",
-          "override_adventure_rank": "Override adventure rank",
-          "adventure_rank_value": "Adventure rank value",
-          "override_world_level": "Override world level",
-          "world_level_value": "World level value",
-          "override_exp_text": "Override experience text",
-          "current_exp": "Current EXP",
-          "max_exp": "Max EXP",
-          "override_exp_bar": "Override EXP bar",
-          "exp_bar_value": "EXP bar value",
-          "custom_avatar_image": "Custom avatar image",
-          "avatar_image_path": "Avatar image path",
-          "custom_namecard_image": "Custom namecard image",
-          "namecard_image_path": "Namecard image path"
+          "override_uid": "覆盖UID水印",
+          "uid_value": "UID",
+          "add_prefix": "添加 \"UID:\" 前缀",
+          "bold_style": "粗体",
+          "italic_style": "斜体",
+          "font_size": "字体大小",
+          "position_x": "X坐标",
+          "position_y": "Y坐标",
+          "update_interval": "更新间隔 (毫秒)",
+          "override_nickname": "覆盖昵称",
+          "nickname": "昵称",
+          "override_adventure_rank": "覆盖冒险等级",
+          "adventure_rank_value": "冒险等级",
+          "override_world_level": "覆盖世界层级",
+          "world_level_value": "世界层级",
+          "override_exp_text": "覆盖经验",
+          "current_exp": "当前经验",
+          "max_exp": "最大经验",
+          "override_exp_bar": "覆盖经验条",
+          "exp_bar_value": "经验条",
+          "custom_avatar_image": "自定义头像图片",
+          "avatar_image_path": "头像图片路径",
+          "custom_namecard_image": "自定义名片图片",
+          "namecard_image_path": "名片图片路径"
         },
         "hints": {
-          "images": "Images must be PNG files (avatar: 256x256, card: 840x400)."
+          "images": "图片必须为PNG格式文件 (头像: 256x256, 名片: 840x400)."
         },
         "status": {
-          "label": "Profile changer active",
+          "label": "资料卡修改器已激活",
           "uid_suffix": " | UID",
-          "images_suffix": " | Images"
+          "images_suffix": " | 图片"
         }
       },
       "graphicschanger": {
-        "name": "Graphics changer",
-        "description": "Changes some graphics settings",
+        "name": "图形修改器",
+        "description": "更改某些图形设置",
         "warning": "",
         "options": {
           "gamma": "Gamma",
           "outline_width": "Outline width",
           "resolution_scale": "Resolution scale",
-          "reset": "Reset"
+          "reset": "重置"
         },
         "tooltip": {
-          "warning": "Be careful! Values above 2.0 might crash your game on low-end PCs. Open and close game map to apply."
+          "warning": "小心! 数值超过2.0可能导致低端电脑运行游戏时崩溃。 打开并关闭游戏地图以应用更改。"
         }
       },
       "flycloakchanger": {
-        "name": "Change Glider",
-        "description": "Changes your Glider. Change avatar to apply.",
+        "name": "更换风之翼",
+        "description": "更换你的风之翼。 更改角色以应用。",
         "warning": "",
         "options": {
-          "selector_label": "Flycloak"
+          "selector_label": "风之翼"
         },
         "flycloaks": {
           "140004": "Wings of Azure Wind",
@@ -1071,24 +1071,24 @@
         }
       },
       "uncensor": {
-        "name": "Remove censorship",
-        "description": "Removes camera censorship at certain angles",
+        "name": "移除虚化",
+        "description": "在特定角度下移除镜头虚化",
         "warning": ""
       },
       "openteamimmediately": {
-        "name": "Open team immediately",
-        "description": "Allows you to open team setup immediately",
+        "name": "立即打开队伍界面",
+        "description": "允许你立即打开队伍设置",
         "warning": ""
       },
       "instantbowcharge": {
-        "name": "Instant bow charge",
-        "description": "Fully charges bow instantly",
+        "name": "弓箭瞬间蓄力",
+        "description": "弓箭瞬间蓄力",
         "warning": ""
       },
       "hidedamage": {
-        "name": "Hide damage text",
-        "description": "Hides damage text",
-        "warning": "May not work :("
+        "name": "隐藏伤害文字",
+        "description": "隐藏伤害文字",
+        "warning": "可能无法工作 :("
       },
       "constchanger": {
         "name": "C6 Unlocker",
