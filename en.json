@@ -786,21 +786,28 @@
           "cooking_not_implemented": "Direct Cooking UI opening is not implemented yet. Maybe it will be in future versions."
         }
       },
-      "rapidfire": {
+      "attackmodifier": {
         "name": "Attack Modifier",
-        "description": "Repeats player hits and optionally propagates them to nearby targets",
+        "description": "Composite attack modifiers (Rapid Fire and AOE duplication)",
         "warning": "Can be risky",
+        "sections": {
+          "rapid_fire": "Rapid Fire",
+          "aoe": "AOE Duplicate"
+        },
         "options": {
-          "enabled": "Enable Rapid Fire",
+          "rapid_enabled": "Enable Rapid Fire",
           "multi_hit": "Multi-hit",
           "hit_multiplier": "Hit multiplier",
           "multi_target": "Multi-target",
-          "target_radius": "Target radius (m)"
+          "target_radius": "Target radius (m)",
+          "aoe_enabled": "Enable AOE duplicate",
+          "aoe_range": "AOE range (m)"
         },
         "status": {
           "active": "Attack Modifier: active",
-          "multi_hit": "Multi-Hit x%d",
-          "multi_target": "Multi-Target %.1fm"
+          "multi_hit": "Rapid Fire: Multi-Hit x%d",
+          "multi_target": "Rapid Fire: Multi-Target %.1fm",
+          "aoe": "AOE duplicate radius: %.1fm"
         }
       },
       "enhancedmovement": {
