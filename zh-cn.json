@@ -181,6 +181,7 @@
           "delay_time": "延迟时间(毫秒)",
           "use_delay_fluctuation": "使用随机延迟",
           "delay_fluctuation": "随机延迟(ms)",
+          "filter_enabled": "启用",
           "filter_animals": "动物",
           "filter_drop_items": "掉落道具",
           "filter_resources": "资源",
@@ -304,6 +305,9 @@
         "name": "掉落物吸附",
         "description": "自动将掉落物吸附至玩家处",
         "warning": "",
+        "options": {
+          "range": "范围 (米)"
+        },
         "hotkey_hint": "热键可全局切换该功能。"
       },
       "autotalk": {
@@ -504,7 +508,10 @@
         "name": "自动激活传送点",
         "description": "自动解锁附近的传送点",
         "warning": "",
-        "options": {}
+        "options": {
+          "range": "范围 (米)",
+          "delay": "延迟 (毫秒)"
+        }
       },
       "musicevent": {
         "name": "音乐活动",
@@ -695,7 +702,8 @@
           "geo": "与岩元素共鸣",
           "electro": "与雷元素共鸣",
           "dendro": "与草元素共鸣",
-          "hydro": "与水元素共鸣"
+          "hydro": "与水元素共鸣",
+          "pyro": "与火元素共鸣"
         },
         "status": {
           "label": "自动供奉已就绪 (%d 物品)"
@@ -705,21 +713,25 @@
           "geoculus": "岩神瞳",
           "electroculus": "雷神瞳",
           "dendroculus": "草神瞳",
-          "hydroculus": "水神瞳"
+          "hydroculus": "水神瞳",
+          "pyroculus": "火神瞳",
+          "lunaculus": "月神瞳"
         },
         "elements": {
           "wind": "风",
           "rock": "岩",
           "electric": "雷",
           "grass": "草",
-          "hydro": "水"
+          "hydro": "水",
+          "pyro": "火"
         },
         "messages": {
           "anemo": "与风元素共鸣!",
           "geo": "与岩元素共鸣!",
           "electro": "与雷元素共鸣!",
           "dendro": "与草元素共鸣!",
-          "hydro": "与水元素共鸣!"
+          "hydro": "与水元素共鸣!",
+          "pyro": "与火元素共鸣!"
         }
       },
       "attackteammate": {
@@ -774,21 +786,28 @@
           "cooking_not_implemented": "直接烹饪界面的打开功能尚未实现。或许会在未来版本中加入。"
         }
       },
-      "rapidfire": {
+      "attackmodifier": {
         "name": "攻击修改器",
-        "description": "重复玩家的攻击，并可选择性地将其传播至附近目标",
+        "description": "Composite attack modifiers (Rapid Fire and AOE duplication)",
         "warning": "可能有风险！",
+        "sections": {
+          "rapid_fire": "Rapid Fire",
+          "aoe": "AOE Duplicate"
+        },
         "options": {
-          "enabled": "启用攻击修改器",
+          "rapid_enabled": "Enable Rapid Fire",
           "multi_hit": "多次命中",
           "hit_multiplier": "命中倍率",
           "multi_target": "多目标",
-          "target_radius": "目标半径 (米)"
+          "target_radius": "目标半径 (米)",
+          "aoe_enabled": "Enable AOE duplicate",
+          "aoe_range": "AOE range (m)"
         },
         "status": {
           "active": "攻击修改器: 生效",
-          "multi_hit": "多次命中 x%d",
-          "multi_target": "多目标 %.1fm"
+          "multi_hit": "Rapid Fire: 多次命中 x%d",
+          "multi_target": "Rapid Fire: 多目标 %.1fm",
+          "aoe": "AOE duplicate radius: %.1fm"
         }
       },
       "enhancedmovement": {
