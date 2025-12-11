@@ -88,44 +88,44 @@
         "window_bg": "窗口背景",
         "child_bg": "组件背景",
         "popup_bg": "弹出窗口背景",
-        "border": "Border",
-        "frame_bg": "Frame background",
-        "frame_bg_hovered": "Frame background (hovered)",
-        "frame_bg_active": "Frame background (active)",
-        "title_bg": "Title background",
-        "title_bg_active": "Title background (active)",
-        "menu_bar_bg": "Menu bar background",
-        "scrollbar_bg": "Scrollbar background",
-        "scrollbar_grab": "Scrollbar grab",
-        "scrollbar_grab_hovered": "Scrollbar grab (hovered)",
-        "scrollbar_grab_active": "Scrollbar grab (active)",
-        "check_mark": "Check mark",
-        "slider_grab": "Slider grab",
-        "slider_grab_active": "Slider grab (active)",
-        "button": "Button",
-        "button_hovered": "Button (hovered)",
-        "button_active": "Button (active)",
-        "header": "Header",
-        "header_hovered": "Header (hovered)",
-        "header_active": "Header (active)",
-        "separator": "Separator",
-        "separator_hovered": "Separator (hovered)",
-        "separator_active": "Separator (active)",
-        "resize_grip": "Resize grip",
-        "resize_grip_hovered": "Resize grip (hovered)",
-        "resize_grip_active": "Resize grip (active)",
-        "tab": "Tab",
-        "tab_hovered": "Tab (hovered)",
-        "tab_active": "Tab (active)",
-        "tab_selected": "Tab (selected)",
-        "table_header": "Table header",
-        "table_border_strong": "Table border (strong)",
-        "table_border_light": "Table border (light)",
-        "text_selected_bg": "Text selection",
-        "drag_drop_target": "Drag & drop target",
-        "nav_window_highlight": "Nav highlight",
-        "nav_window_dim_bg": "Nav dim background",
-        "modal_dim_bg": "Modal dim background"
+        "border": "边界",
+        "frame_bg": "框架背景",
+        "frame_bg_hovered": "框架背景 (悬停)",
+        "frame_bg_active": "框架背景 (活动)",
+        "title_bg": "标题背景",
+        "title_bg_active": "标题背景 (活动)",
+        "menu_bar_bg": "菜单栏背景",
+        "scrollbar_bg": "滚动条背景",
+        "scrollbar_grab": "滚动条抓住",
+        "scrollbar_grab_hovered": "滚动条抓住 (悬停)",
+        "scrollbar_grab_active": "滚动条抓住 (活动)",
+        "check_mark": "√",
+        "slider_grab": "滑块抓住",
+        "slider_grab_active": "滑块抓住 (活动)",
+        "button": "按钮",
+        "button_hovered": "按钮 (悬停)",
+        "button_active": "按钮 (活动)",
+        "header": "页眉",
+        "header_hovered": "页眉 (悬停)",
+        "header_active": "页眉 (活动)",
+        "separator": "分隔符",
+        "separator_hovered": "分隔符 (悬停)",
+        "separator_active": "分隔符 (活动)",
+        "resize_grip": "调整手柄大小",
+        "resize_grip_hovered": "调整手柄大小 (悬停)",
+        "resize_grip_active": "调整手柄大小 (活动)",
+        "tab": "选项卡",
+        "tab_hovered": "选项卡 (悬停)",
+        "tab_active": "选项卡 (活动)",
+        "tab_selected": "选项卡 (被选择)",
+        "table_header": "表头",
+        "table_border_strong": "标签边界 (粗)",
+        "table_border_light": "标签边界 (细)",
+        "text_selected_bg": "文本选择",
+        "drag_drop_target": "拖放目标",
+        "nav_window_highlight": "导航突出显示",
+        "nav_window_dim_bg": "导航背景 (变暗)",
+        "modal_dim_bg": "模态背景 (变暗)"
       }
     },
     "configs": {
@@ -788,26 +788,26 @@
       },
       "attackmodifier": {
         "name": "攻击修改器",
-        "description": "Composite attack modifiers (Rapid Fire and AOE duplication)",
+        "description": "综合攻击修改器 (多重攻击和 AOE 复制)",
         "warning": "可能有风险！",
         "sections": {
-          "rapid_fire": "Rapid Fire",
-          "aoe": "AOE Duplicate"
+          "rapid_fire": "多重攻击",
+          "aoe": "AOE 复制"
         },
         "options": {
-          "rapid_enabled": "Enable Rapid Fire",
+          "rapid_enabled": "启用多重攻击",
           "multi_hit": "多次命中",
           "hit_multiplier": "命中倍率",
           "multi_target": "多目标",
           "target_radius": "目标半径 (米)",
-          "aoe_enabled": "Enable AOE duplicate",
-          "aoe_range": "AOE range (m)"
+          "aoe_enabled": "启用 AOE 复制",
+          "aoe_range": "AOE 范围 (米)"
         },
         "status": {
           "active": "攻击修改器: 生效",
-          "multi_hit": "Rapid Fire: 多次命中 x%d",
-          "multi_target": "Rapid Fire: 多目标 %.1fm",
-          "aoe": "AOE duplicate radius: %.1fm"
+          "multi_hit": "多重攻击: 多次命中 x%d",
+          "multi_target": "多重攻击: 多目标 %.1fm",
+          "aoe": "AOE 复制半径: %.1fm"
         }
       },
       "enhancedmovement": {
@@ -835,7 +835,7 @@
       },
       "noclip": {
         "name": "自由移动",
-        "description": "：“飞起来！”",
+        "description": "“飞起来！”",
         "warning": "",
         "options": {
           "speed": "速度",
@@ -852,17 +852,17 @@
         }
       },
       "infinityultimate": {
-        "name": "Infinite Ultimate",
-        "description": "Charges ult energy immediately.",
+        "name": "无限元素爆发",
+        "description": "立即充满元素爆发能量",
         "warning": "",
         "status": {
-          "label": "Infinite ultimate active"
+          "label": "无限元素爆发已激活"
         }
       },
       "multihit": {
         "name": "多重命中",
         "description": "使攻击次数倍增",
-        "warning": "可能有风险in endgame",
+        "warning": "在后期可能有风险!",
         "options": {
           "hits": "命中"
         }
@@ -1071,22 +1071,22 @@
           "selector_label": "风之翼"
         },
         "flycloaks": {
-          "140004": "Wings of Azure Wind",
-          "140002": "Wings of Companionship",
-          "140006": "Wings of Concealing Snow",
-          "140014": "Wings of Delicacies",
-          "140003": "Wings of Descension",
-          "140016": "Wings of Fate's Course Intertwined",
-          "140007": "Wings of Feasting",
-          "140001": "Wings of First Flight",
-          "140005": "Wings of Golden Flight",
-          "140012": "Wings of Merciful, Wrathful Waters",
-          "140009": "Wings of Shimmering Galaxy",
-          "140015": "Wings of Soaring Flame",
-          "140010": "Wings of the Forest",
-          "140011": "Wings of the Starlit Feast",
-          "140008": "Wings of the Stormstrider",
-          "140013": "Wings of Transient Dreams"
+          "140004": "苍天清风之翼",
+          "140002": "守候之翼",
+          "140006": "雪隐之翼",
+          "140014": "肴馔之翼",
+          "140003": "降临之翼",
+          "140016": "命轨爻错之翼",
+          "140007": "飨宴之翼",
+          "140001": "初始之翼",
+          "140005": "金琮天行之翼",
+          "140012": "慈水怒涛之翼",
+          "140009": "星汉灿烂之翼",
+          "140015": "烈火腾燎之翼",
+          "140010": "森郁花繁之翼",
+          "140011": "星筳之翼",
+          "140008": "雷腾云奔之翼",
+          "140013": "梦生须臾之翼"
         }
       },
       "uncensor": {
@@ -1110,9 +1110,9 @@
         "warning": "可能无法工作 :("
       },
       "constchanger": {
-        "name": "C6 Unlocker",
-        "description": "Unlocks C6 on your character. Switch avatar to apply.\nMost constellations will not have actual effect, though some still will. Do not report it as a bug.",
-        "warning": "DISABLE BEFORE GOING INTO ENDGAME!"
+        "name": "6命解锁",
+        "description": "为角色解锁6命。 更改角色以应用。\n大多数命座不会产生实际影响, 尽管有些仍会。 请勿将其报告为Bug。",
+        "warning": "进入ENDGAME前请关闭!"
       }
     }
   }
